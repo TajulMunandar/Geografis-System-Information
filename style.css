@@ -1,0 +1,239 @@
+* {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* CSS Navbar */
+.navbar {
+    background-image: linear-gradient(to right, #5080da, #012258);
+    color: #fff;
+}
+
+.merek {
+    color: #00d7ff;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 600 !important;
+    color: #fff !important;
+}
+
+.nav-link.active {
+    color: #f57708 !important;
+}
+
+.dropdown-toggle {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #f57708 !important;
+}
+
+.list-user:hover {
+    background-color: #d1d1d1;
+}
+
+.btn-login:hover {
+    background-color: transparent;
+    border: 1px solid #F57708;
+    color: #F57708;
+}
+
+/* Akhir CSS Navbar */
+
+/* CSS Beranda */
+.hero-section {
+    background-image: linear-gradient(to right, #5080da, #012258);
+    color: #fff;
+}
+
+.colm-p {
+    text-align: justify;
+    margin-top: 90px;
+}
+
+.colm-j {
+    margin-left: auto;
+}
+
+.btn-jelajahi {
+    background-color: #012258;
+}
+
+.btn-jelajahi:hover {
+    border: 1px solid #fff;
+    color: #fff !important;
+}
+
+#berita-terkini h1 {
+    background-color: white;
+    color: #012258 !important;
+}
+
+.gampong,
+.row-pertama,
+.pemuka,
+.kendala,
+.administrasi,
+.solusi {
+    margin-top: 100px;
+}
+
+.row-pertama,
+.row-column1 {
+    display: flex;
+    flex: auto;
+}
+
+.contact-us {
+    background-color: #c84b31;
+}
+
+.btn-contact-us {
+    background-color: #000957;
+}
+
+#pemuka .card {
+    transition-duration: .3s;
+}
+
+#pemuka .card:hover {
+    transform: translate(0, -20px);
+}
+
+.footer {
+    background-image: linear-gradient(to right, #5080da, #012258);
+}
+
+/* Akhir CSS Beranda */
+
+/* CSS Berita */
+/* .img-fit {
+    object-fit: cover;
+} */
+
+a.berita {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    padding: 12px;
+    background-color: #012258;
+    font-weight: bold;
+}
+
+.btn-kategori {
+    background-image: linear-gradient(to right, #5080da, #012258);
+    border: none;
+}
+
+.btn-kategori:hover {
+    background-color: #012258;
+    transition: ease 0.4s;
+}
+
+.list-ktgr:hover {
+    background-color: #d1d1d1;
+}
+
+.page-item.active .page-link {
+    color: #fff;
+    background-color: #1e40af;
+    border-color: #1e40af;
+}
+
+/* Akhir CSS Berita */
+
+/* CSS Administrasi */
+.btn-adm {
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.btn-adm:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.img-kendala:hover {
+    padding: 3px;
+    transition: ease 0.4s;
+}
+
+/* Akhir CSS Administrasi */
+btn
+
+/* CSS Keuangan */
+.laporan {
+    display: flex;
+    flex: auto;
+}
+
+/* Akhir CSS Keuangan */
+
+/* CSS FORM */
+
+.btn-primary {
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 50px;
+    background-color: #012258 !important;
+}
+
+.btn-primary:hover {
+    background-color: #0441a2 !important;
+}
+
+/* Akhir CSS FORM */
+
+.qanun {
+    text-align: justify;
+}
+
+.visi {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.visi:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: ease 0.4s;
+}
+
+#bg-header-tentang {
+    object-fit: cover;
+}
+
+#bg-header-adm {
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    #bg-header-adm {
+        object-position: 100% 30%;
+        object-fit: cover;
+    }
+}
+
+.laporan {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.map {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.map:hover {
+    font-weight: 400;
+    transition: ease-in 0.2s;
+}

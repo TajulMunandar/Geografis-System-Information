@@ -2,12 +2,56 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
 }
+
+/* CSS Navbar */
+.navbar {
+    background-image: linear-gradient(to right, #5080da, #012258);
+    color: #fff;
+}
+
+.merek {
+    color: #00d7ff;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 600 !important;
+    color: #fff !important;
+}
+
+.nav-link.active {
+    color: #f57708 !important;
+}
+
+.dropdown-toggle {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #f57708 !important;
+}
+
+.list-user:hover {
+    background-color: #d1d1d1;
+}
+
+.btn-login:hover {
+    background-color: transparent;
+    border: 1px solid #F57708;
+    color: #F57708;
+}
+
+/* Akhir CSS Navbar */
+
 
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
+    background-image: linear-gradient(to right, #5080da, #012258);
+    color: #fff;
 }
 
 #map {
@@ -19,6 +63,64 @@ body {
     position: relative;
     display: none;
  }
+
+ .colm-p {
+    text-align: justify;
+    margin-top: 90px;
+}
+
+.colm-j {
+    margin-left: auto;
+}
+
+.btn-jelajahi {
+    background-color: #012258;
+}
+
+.btn-jelajahi:hover {
+    border: 1px solid #fff;
+    color: #fff !important;
+}
+
+#berita-terkini h1 {
+    background-color: white;
+    color: #012258 !important;
+}
+
+.gampong,
+.row-pertama,
+.pemuka,
+.kendala,
+.administrasi,
+.solusi {
+    margin-top: 100px;
+}
+
+.row-pertama,
+.row-column1 {
+    display: flex;
+    flex: auto;
+}
+
+.contact-us {
+    background-color: #c84b31;
+}
+
+.btn-contact-us {
+    background-color: #000957;
+}
+
+#pemuka .card {
+    transition-duration: .3s;
+}
+
+#pemuka .card:hover {
+    transform: translate(0, -20px);
+}
+
+.footer {
+    background-image: linear-gradient(to right, #5080da, #012258);
+}
 
   /* Tambahkan CSS berikut ke dalam tag <style> atau dalam file main.css */
 .loading {
